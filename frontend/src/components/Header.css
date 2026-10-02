@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 24px;
+  padding: 16px max(16px, calc((100% - 1100px) / 2));
+  background: #1e3a5f;
+  color: #ffffff;
+}
+
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header-logo {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.header-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+}
+
+.header-nav a:hover {
+  text-decoration: underline;
+}
+
+/* NavLink adiciona a classe "active" na rota atual */
+.header-nav a.active {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.header-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-user button {
+  padding: 6px 12px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  background: transparent;
+  color: #ffffff;
+  cursor: pointer;
+}

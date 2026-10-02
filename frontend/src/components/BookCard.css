@@ -1,0 +1,40 @@
+.book-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px;
+  border: 1px solid #e4e4e7;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+}
+
+.book-card h2 {
+  margin: 10px 0 0;
+  font-size: 1.05rem;
+}
+
+.book-author {
+  margin: 0;
+  color: #52525b;
+}
+
+.book-year {
+  margin: 0;
+  color: #71717a;
+  font-size: 0.9rem;
+}
+
+.book-card .button {
+  margin-top: auto;
+}
+
+.badge-ok {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.badge-out {
+  background: #fee2e2;
+  color: #991b1b;
+}

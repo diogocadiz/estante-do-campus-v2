@@ -1,0 +1,63 @@
+.back-link {
+  display: inline-block;
+  margin-bottom: 24px;
+  color: #1e3a5f;
+  font-weight: 700;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr));
+  gap: 32px;
+  align-items: start;
+}
+
+.details-info h1 {
+  margin: 0 0 8px;
+  font-size: clamp(1.6rem, 5vw, 2.4rem);
+}
+
+.details-info h2 {
+  margin-top: 24px;
+  font-size: 1.1rem;
+}
+
+.details-info .book-author {
+  margin: 0 0 4px;
+  color: #52525b;
+}
+
+.details-info .book-year {
+  margin: 0 0 4px;
+  color: #71717a;
+  font-size: 0.9rem;
+}
+
+.details-description {
+  line-height: 1.6;
+  white-space: pre-line;
+}
+
+.subjects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0;
+  margin: 12px 0 20px;
+  list-style: none;
+}
+
+.subjects li {
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #eef2f7;
+  font-size: 0.85rem;
+}
+
+.success-message {
+  padding: 12px;
+  border-radius: 10px;
+  background: #dcfce7;
+  color: #166534;
+  font-weight: 700;
+}

@@ -1,0 +1,38 @@
+.book-cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  padding: 14px;
+  border-radius: 10px;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.book-cover-genre {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+
+.book-cover-title {
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.book-cover-card .book-cover-title {
+  font-size: 1.05rem;
+}
+
+.book-cover-details {
+  max-width: 320px;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.book-cover-details .book-cover-title {
+  font-size: 1.6rem;
+}
