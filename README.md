@@ -121,11 +121,6 @@ Os dados ficam **em memória** em `backend/src/data/books.ts` (sem banco nesta e
 5. Para demonstrar o tratamento de erro: **pare o backend** (Ctrl+C) e recarregue
    o Catálogo — aparece a mensagem de erro de conexão.
 
-## Guia de estudo
-
-O `GUIA-DE-ESTUDO.md` explica onde está cada coisa no código e as perguntas e
-alterações ao vivo mais prováveis na apresentação.
-
 ## Checklist da N1
 
 - [x] Instala e executa seguindo o README (backend e frontend).
